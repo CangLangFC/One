@@ -15,6 +15,10 @@ ECN=["austria","iceland","finland","france","germany"]
 print(len(ECN[0]))
 ECN.append("greece")
 print(ECN)
+ECN+=["estonia"]
+
+for country in ECN:
+    print(country)
 
 
 #1.2.4 逻辑操作符
@@ -40,8 +44,6 @@ elif a1<10000:
 else:
     print("large")
 
-for country in ECN:
-    print(country)
 
 
 #1.2.5.4
@@ -56,3 +58,7 @@ print(a)
 
 ECN+=["estonia"]
 print(ECN)
+
+
+ECN=['austria','iceland','finland','france','germany']
+print(ECN[1])
