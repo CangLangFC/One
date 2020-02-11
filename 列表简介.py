@@ -1,4 +1,4 @@
-ECN=['austria','iceland','finland','france','germany']
+ECN=['france','austria','iceland','finland','germany']
 print(ECN[-1].title())   #倒数第一个
 ECN[0]='croatia'
 print(ECN)
@@ -11,8 +11,7 @@ print(ECN)
 ECN1=ECN.pop()           #弹出最后一个（栈顶）
 print(ECN)
 print(ECN1)
-ECN.remove('iceland')
+ECN.remove('iceland')    #删除值
 print(ECN)
-
-
-
+print(sorted(ECN,reverse=True)) #临时按首字母倒叙排列
+print(ECN)
