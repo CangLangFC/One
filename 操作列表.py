@@ -33,6 +33,20 @@ squares=[value**3 for value in range(1,11)]
 print(squares)
 
 
+players=['ame','maybe','chalice','fy','xnova']
+print(players[-2:])  #倒数2个
+for player in players:
+    print(player.title())
+good_players=players[:]  #复制列表
+print (good_players)
+
+
+good_players.append('yang')
+print(good_players)
 
 
 
+dimensions=(200,50)
+print(dimensions[0])
+for dimension in dimensions:
+    print(dimension)
