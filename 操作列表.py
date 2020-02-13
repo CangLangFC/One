@@ -50,3 +50,7 @@ dimensions=(200,50)
 print(dimensions[0])
 for dimension in dimensions:
     print(dimension)
+
+foods=('fish','meat','beef','grape','potato')
+for food in foods:
+    print(food)
